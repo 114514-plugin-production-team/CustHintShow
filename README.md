@@ -22,6 +22,10 @@ showplayer.Delete(hint1);//删除提示
 | X | 文本的水平位置。X 坐标越大，文本显示越靠右 |
 | Y | 文本的垂直位置。Y 坐标越大，文本显示越靠下 |
  |
+## X,Y坐标
+![The position of Y coordinate](YCoordinateExample.jpg)
+\n
+![Some pos of Y and X](XY.jpg)
 ## 联系
 ---
 QQ:3145186196
