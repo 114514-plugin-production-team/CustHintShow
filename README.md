@@ -1,7 +1,22 @@
 # CustHintShow
-CustHintShow(CHS)|一个scp sl的消息显示api|A message display API for an SCP SL
------
-使用
------
-"ShowApi.CustHintShow.Add((x坐标), (y坐标), "text", 显示时长f, UserId, 文字大小(如20), 颜色(是UnityEngine.Color.xxx), 对齐(是TMPro.TextAlignmentOptions.xxx));"
------
+CustHintShow(CHS)一个scp sl的消息显示api|╭(╯^╰)╮
+# 使用
+示例代码\n
+```Csharp
+var hint = new CustHintShow.Hints.Hint
+{
+    X = 960,
+    Y = 600,
+    Size = 20,
+    Text = "欢迎游玩服务器"
+};
+var showplayer = CustHintShow.Display.Get(player);
+showplayer.Add(hint);
+```
+#### 属性
+| 属性 | 描述 |
+| Y | 文本的垂直位置。Y 坐标越大，文本显示越靠下 |
+| X | 文本的水平位置。X 坐标越大，文本显示越靠右 |
+| Size | 文本的大小 |
+| Text | 内容 |
+ |
