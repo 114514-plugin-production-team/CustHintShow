@@ -18,7 +18,7 @@ showplayer.Delete(hint1);//删除提示
 | 属性 | 描述 |
 | - | - |
 | Size | 文本的大小 |
-| Text | 设置此属性将用静态文本覆盖内容。 |
+| Text | 文本 |
 | X | 文本的水平位置。X 坐标越大，文本显示越靠右 |
 | Y | 文本的垂直位置。Y 坐标越大，文本显示越靠下 |
  |
@@ -30,3 +30,11 @@ showplayer.Delete(hint1);//删除提示
 ---
 QQ:3145186196
 ---
+## 更多的
+```Csharp
+private void OnVerified(VerifiedEventArgs ev)
+{
+    ev.Player.AddHint(float x, float y, int size, string text, float duration)
+    //x为X坐标，y为y坐标， size为文本的大小, text为文本, duration为显示时间，用秒作单位
+}
+```
